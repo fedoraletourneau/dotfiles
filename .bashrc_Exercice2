@@ -1,0 +1,30 @@
+#
+# ~/.bashrc_Exercice2
+#
+
+echo "Bienvenue $USER"
+
+alias ls='ls -l -a'
+alias ll='ls'
+alias c='clear'
+alias grepc='grep --color'
+
+creerDossierDeplacer()
+{
+  mkdir dossier1
+  cd dossier1
+}
+
+creerFichierOuvrirVim()
+{
+  touch fichier1
+  vim fichier1
+}
+
+PS1='[\h \W\$ '
+
+mygrep()
+{
+  alias grep='grep -i'
+}
+

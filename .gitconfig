@@ -1,0 +1,9 @@
+[user]
+	name = fletourneau
+	email = fedoraletourneau@gmail.com
+
+[author]
+	name = Fédora Létourneau
+
+[core]
+	editor = /usr/bin/nvim
